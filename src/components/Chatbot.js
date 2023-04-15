@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import ChatMessage from './ChatMessage';
 import { analyze } from '../utils';
 //import logoimg from '/src/images/logo.jpg'
-
+ 
 export default function Chatbot() {
 
     const [messages, setMessages] = useState([
